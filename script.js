@@ -35,7 +35,7 @@ const renderCards = (item) => {
 };
 
 const getUsers = async () => {
-  const result = await fetch("https://www.randomuser.me/api/?results=32");
+  const result = await fetch("https://www.randomuser.me/api/?results=64");
   const data = await result.json();
 
   console.log(data.results);
