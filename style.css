@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+select,
+button {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+select {
+  background-color: white;
+}
+
+.search-btn {
+  cursor: pointer;
+}
+.search-btn:hover {
+  background-color: rgb(228, 228, 228);
+}
+.search-btn:active {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  position: relative;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  width: 200px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  z-index: -1;
+}
+
+.nationality {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: grey;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.text {
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.gendAge {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.email {
+  font-size: 11px;
+}
