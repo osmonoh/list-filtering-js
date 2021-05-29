@@ -37,6 +37,7 @@ select {
 
 .search-btn {
   cursor: pointer;
+  transition: 0.2s;
 }
 .search-btn:hover {
   background-color: rgb(228, 228, 228);
@@ -70,7 +71,7 @@ select {
 .nationality {
   position: absolute;
   top: 12px;
-  right: 12px;
+  right: 6px;
   color: grey;
 }
 

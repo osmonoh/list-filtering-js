@@ -7,9 +7,8 @@ const content = document.querySelector(".content");
 const renderCards = (item) => {
   const card = document.createElement("div");
   card.classList.add("card");
-  const nationality = document.createElement("h3");
-  nationality.classList.add("nationality");
-  nationality.textContent = item.nat;
+  const nationality = document.createElement("i");
+  nationality.classList.add("nationality", item.nat.toLowerCase(), "flag");
   const avatar = document.createElement("img");
   avatar.classList.add("avatar");
   avatar.src = item.picture.thumbnail;
